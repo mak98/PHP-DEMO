@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title',"Login")
+@section('title',"Dashboard")
 @section('navbar')
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Dashboard</a>
@@ -19,7 +19,7 @@
             <a class="nav-link" href="#">Contact Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route("login")}}"">Logout</a>
+                <a class="nav-link" href="{{route("logout")}}">Logout</a>
                 </li>
         </ul>
     </div>
